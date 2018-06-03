@@ -1,0 +1,539 @@
+
+
+    
+/************************ Font ***************************/
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+/************************ Font ***************************/
+
+
+/************************prefix***************************/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #303840 !important;
+}
+
+
+ a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.wrapper {
+    float: left;
+    width: 100%;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+nav a:hover,nav a:focus {
+    background: #3399ff;
+    color: #fff;
+}
+
+.d-block {
+    display: block;
+}
+.d-inblock {
+    display: inline-block;
+}
+.d-inline {
+    display: inline;
+}
+
+/**********************prefix end***********************/
+
+
+/************************framework***************************/
+.row {
+    
+    width: 100%;
+    min-width: 1080px;
+    position: relative;
+    float: left;
+}
+.row-fixed {
+    height: 100%;
+    margin: auto;
+    position: relative;
+    width: 1080px;
+    
+}
+
+/************************framework end***************************/
+
+
+.header {
+    background: #336E7B;
+    min-height: 80px;
+}
+
+.form-group {
+    margin: 0 10px;
+}
+.form-group label {
+    color: #fff;
+}
+.login-btn {
+    color: #fff;
+    background: #2C3E50;
+    border: none;
+    padding: 6px 20px;
+    vertical-align: middle;
+    margin: 32px 0 19px;
+    cursor: pointer;
+}
+
+.login_margin {
+    margin-bottom: 22px;
+    margin-top: 15px;
+}
+
+.home_banner {
+    overflow: hidden;
+}
+
+.home_banner img {
+    min-width: 540px;
+    width: 50%;
+    height: 490px;
+}
+
+
+.flag_banner {
+    /*background: #336E7B;*/
+    border-top: 10px solid #303840;
+    background: #fff;
+}
+.flag_wrp {
+    padding: 25px 0;
+    /*position: absolute;*/
+}
+
+.flag_banner img {
+    width: 98px;
+    height: 65px;
+    margin: 5px;
+    /*border: 2px solid #fff;*/
+}
+/*.glass:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1080px;
+    transform: skew(-22deg);
+    background: rgba(255,255,255,0.2);
+}*/
+.glassefct {
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 490px;
+    transform: skew(-22deg);
+    background: rgba(255,255,255,0.2);
+}
+
+.logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    padding: 2px 10px;
+    border: 3px solid #fff;
+    margin: 15px 0;
+}
+
+.tree-view {
+    min-width: 1080px;
+    background: #eef4f7;
+    min-height: 500px;
+    padding: 50px 0;
+}
+.main {
+    background: #303840;
+}
+
+.acoount-btn-wrap {
+    height: 80px;
+}
+.acoount-btn-wrap a {
+    float: left;
+    margin: 30px 20px;
+    color: #fff;
+}
+.acc_name:before {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    float: left;
+    /*height: 8px;*/
+    /*width: 8px;*/
+    margin: 4px 8px;
+    padding: 4px;
+    background: #00cc99;
+}
+.sidebar {
+    /*background: #fff;*/
+    min-height: calc(100vh - 130px);
+    padding-top: 50px;
+    width: 380px;
+}
+.sidebar-wrap {
+    width: 100%;
+}
+
+.navigation {
+    background: #fff;
+}
+nav {
+    width: 100%;
+    height: 100%;
+}
+nav ul {
+    /*width: 100%;*/
+    float: left;
+    /*height: 100%;*/
+    margin: 0 auto;
+    /*position: relative;*/
+    /*display: inline-block;*/
+}
+nav ul li {
+    /*width: 100%;*/
+    margin: 5px 10px;
+    float: left;
+}
+nav ul li a {
+    background: lightblue none repeat scroll 0 0;
+    border-radius: 5px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    /*width: calc(100% - 30px);*/
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.active {
+    background: #336e7b none repeat scroll 0 0;
+    /*border: 2px solid #fff;*/
+    color: #fff;
+}
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin: 5px;
+    padding: 6px 12px;
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #286090;
+    border-color: #204d74;
+    color: #fff;
+}
+
+.member_list {
+    margin-top: 50px;
+}
+.panel {
+    float: left;
+    width: 100%;
+}
+.panel-footer {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.panel-footer .pagination {
+    margin: 0px !important;
+    vertical-align: middle !important;
+}
+.panel-footer > span {
+    padding: 10px;
+}
+
+.item_count {
+    padding: 10px 0;
+}
+
+.form-group > span {
+    padding: 7px 5px;
+    text-transform: uppercase;
+}
+
+.form-control {
+    width: 150px !important;
+}
+select.form-control {
+    width: 100px !important;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.promo-avail img {
+    border: 5px solid #00cc99 !important;
+}
+.promo-not-avail img {
+    border: 5px solid #ff6666 !important;
+}
+
+.userinfo span {
+    float: left;
+}
+
+.userinfo > div {
+    width: 100%; 
+    padding: 10px 0;
+}
+.userinfo > div > span:first-child {
+    padding: 7px 10px 7px 100px;
+}
+
+.userinfo tr td {
+    padding: 10px 0;
+}
+.userinfo tr td:nth-child(2) span {
+    margin: 0 35px 0 50px;
+}
+.userinfo tr td:nth-child(2) input {
+    margin: 0 0px 0 50px;
+}
+.userinfo tr td:nth-child(2) button {
+    margin: 0 35px 0 50px;
+}
+
+.get-promo img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 5px solid #fff;
+    margin: 10px 0;
+}
+
+.get-promo-acc {
+    margin-left: 15px;
+}
+.get-promo-acc h3 {
+    margin: 15px 0 0 0;
+}
+
+.get-promo-acc h4 {
+    margin: 0;
+}
+
+.ui-datepicker-trigger {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+/*************** Chat Box start ***************/
+
+.w100 {
+    width: 100%;
+}
+
+.message-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff;
+}
+.chatbox-wrap {
+    width: 100%;
+    background: #fff;
+}
+.chat-topbar {
+    float: left;
+    /*width: calc(100% - 4px);*/
+    width: 100%;
+    height: 50px;
+    border: 1px solid #2C3E50;
+}
+.chat-sidebar {
+    float: left;
+    width: 350px;
+    height: 500px;
+    border-left: 1px solid #2C3E50;
+    border-right: 1px solid #2C3E50;
+    border-bottom: 1px solid #2C3E50;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.chat-msgbox {
+    float: left;
+    width: 730px;
+    height: 500px;
+}
+.usr .chat-msgbox {
+    float: left;
+    width: 100% !important;
+    height: 500px;
+}
+.chat-msgs {
+    float: left;
+    width: 730px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 325px;
+    padding: 30px;
+    /*border-top: 1px solid #2C3E50;*/
+    border-right: 1px solid #2C3E50;
+    border-bottom: 1px solid #2C3E50;
+}
+
+.usr .chat-msgs {
+    width: 100% !important;
+    border-left: 1px solid #2C3E50;
+}
+.chat-txt {
+    float: left;
+    width: 730px;
+    height: 175px;
+    padding-top: 25px;
+    border-right: 1px solid #2C3E50;
+    border-bottom: 1px solid #2C3E50;
+}
+
+.usr .chat-txt {
+    width: 100% !important;
+    border-left: 1px solid #2C3E50;
+}
+.chat-txt textarea {
+    float: left;
+    width: 620px;
+    margin: 0 55px;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100px;
+    padding: 10px;
+}
+.chat-txt input[type="submit"] {
+    margin: 5px 55px 10px 0;
+    float: right;
+}
+.usr .chat-txt input[type="submit"] {
+    float: left !important;
+    margin: 34px 0 !important;
+}
+
+.chat-sidebar ul li a {
+    padding: 5px 10px;
+    border-bottom: 1px solid #2C3E50;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.chat-sidebar ul li a:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
+}
+.chat-sidebar ul li a:active {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+    background: rgb(246,248,249); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+}
+
+.chat-sidebar ul li a span {
+    padding-left: 10px;
+    font-size: 16px;
+}
+.msg {
+    float: left;
+}
+.msg img {
+    width: 40px;
+    border: 2px solid #fff;
+}
+
+.recieved img {
+    float: left;
+    margin-right: 10px;
+}
+.recieved p {
+    background: #00cc66;
+    color: #fff;
+    border-radius: 0 10px 10px 10px;
+    float: left;
+    max-width: 250px;
+    padding: 15px;
+}
+
+.sent img {
+    float: right;
+    margin-left: 10px;
+}
+.sent p {
+    background: #00cc66;
+    color: #fff;
+    border-radius: 10px 0 10px 10px;
+    float: right;
+    max-width: 250px;
+    padding: 15px;
+}
+.admn .chat-topbar span {
+    margin: 0 0 0 350px;
+    padding: 7px 15px;
+}
+.usr .chat-topbar span {
+    margin: 0 0 0 50px;
+    padding: 7px 15px;
+}
+.sendto {
+    margin: 7px 0;
+}
+.sendto input[type="text"]{
+    width: 400px !important ;
+}
+.chat-topbar .checkbox {
+    margin: 7px 10px !important ;
+}
+
+/*************** Chat Box end ***************/

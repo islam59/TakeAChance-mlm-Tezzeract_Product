@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+/*html, body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0; }*/
+
+/*section {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+  position: relative; }*/
+  section h1 {
+    text-align: center;
+    margin-bottom: 70px; }
+  section .hv-container {
+    flex-grow: 1;
+    overflow: auto;
+    justify-content: center; }
+
+.basic-style {
+  background-color: #EFE6E2; }
+  .basic-style > h1 {
+    color: #ac2222; }
+
+div.simple-card {
+  margin: 0;
+  background-color: #fff;
+  color: #DE5454;
+  padding: 30px;
+  border-radius: 7px;
+  min-width: 100px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(204, 131, 103, 0.22); }
+
+.hv-item-parent p {
+  font-weight: bold;
+  color: #DE5454; }
+/*.hv-item-parent span {
+  font-weight: bold;
+  color: #DE5454; }*/
+
+.management-hierarchy {
+  background-color: #303840; }
+  .management-hierarchy > h1 {
+    color: #FFF; }
+  .management-hierarchy .person {
+    text-align: center;
+    display: inline-block;}
+  .management-hierarchy .person > a {
+    display: inline-block;}
+  .management-hierarchy .person > a:hover {
+    background: none;}
+    .management-hierarchy .person > a > img {
+      /*height: 110px;*/
+      height: 80px;
+      border: 5px solid #FFF;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: #fff; 
+      vertical-align: 0 !important;}
+    .management-hierarchy .person > div.name {
+      background-color: #fff;
+      padding: 5px 35px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: normal;
+      /*color: #3BAA9D;*/
+      color: #000;
+      margin: 0;
+      position: relative; }
+      .management-hierarchy .person > div.name b {
+        color: rgba(59, 170, 157, 0.5); }
+      .management-hierarchy .person > div.name:before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 8px;
+        background-color: #fff;
+        left: 50%;
+        top: 0;
+        transform: translateY(-100%); }
+
